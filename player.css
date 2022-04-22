@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) {
+.audio-player #playAudio {
+     width: 60px!important;
+     height: 100px!important;
+     left: 32px!important;
+}
+}
+
+.audio-player #radioIcon {
+    width: 30px;
+    height: 30px;
+    background: url("https://img.icons8.com/ios/50/000000/microphone.png") no-repeat center;
+    background-size: contain;
+}
+.audio-player #playAudio {
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 58px;
+    height: 320px;
+    background: url("YT option 2-410317.png") no-repeat center;
+    background-size: contain;
+    position: relative;
+    left: 120px;
+  
+}
+.audio-player #playAudio.pause {
+    background: url("https://img.icons8.com/pause") no-repeat center;
+    background-size: contain;
+    width: 41px!important;
+    height: 100px!important;
+}
+.audio-player p {
+    margin: 0px 0 0px 45px;
+    /* line-height: 1; */
+    display: inline-flex;
+    color: white;
+}
+.audio-player p small {
+    font-size: 16px;
+}
+.audio-player #seekObjContainer {
+    position: relative;
+    width: 300px;
+    margin: 0 5px;
+    height: 5px;
+}
+.audio-player #seekObjContainer #seekObj {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #e3e3e3;
+    border: 1px solid black;
+}
+.audio-player #seekObjContainer #seekObj #percentage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: coral;
+}
